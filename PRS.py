@@ -11,7 +11,7 @@ print('Welcome to PRS!')
 
 while play_again.lower() in ("yes", "y"):
     print('--------------------------')
-    print(f"***** Round {match} *****\n")
+    print("***** Round {match} *****\n")
     user_choice = input("Paper, Rock, or Scissors? ")
     while user_choice.lower() not in {"paper", "rock", "scissors"}:
         print("Invalid selction. Please try again.")
